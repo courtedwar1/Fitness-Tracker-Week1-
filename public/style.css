@@ -4,5 +4,36 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  background-color: #2ec4b6;
   margin: 0px;
+}
+
+#pageHeading {
+  text-align: center;
+  background-color: #fdfffc;
+}
+
+#contentBody {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+#analytics {
+  /* flex-grow: 3; */
+}
+
+#routines {
+  /* display: flex; */
+  /* flex-grow: 1; */
+}
+
+.day {
+  /* flex-direction: column; */
+}
+
+.heading {
+  background-color: #011627;
+  color: #fdfffc;
 }
