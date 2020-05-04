@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Roboto", Helvetica, "Lucida Grande", sans-serif;
-  
 }
 
 body {
@@ -38,6 +37,14 @@ div {
   padding: 5px;
 }
 
+.analyticsContent div {
+  padding: 5px;
+}
+
+.analyticsContent {
+  border-radius: 0px 0px 10px 10px;
+}
+
 #routines {
   flex-shrink: 5;
   padding: 5px;
@@ -45,16 +52,25 @@ div {
 
 .day {
   padding: 5px;
-  
+  border-radius: 0px 0px 10px 10px;
 }
 
 .analyticsContent, .dayActivity, .activityContent {
   background-color: #FF9F1C;
+  margin: 0;
+}
+.analyticsContent, .activityContent {
+  padding: 5px;
+}
+
+.activityContent:last-child {
+  border-radius: 0px 0px 10px 10px;
 }
 
 .dayActivity {
   justify-content: space-between;
   align-items: baseline;
+  padding: 5px;
 }
 
 .routineHeading, .analyticsHeading {
@@ -63,4 +79,5 @@ div {
   justify-content: space-between;
   background-color: #011627;
   color: #fdfffc;
+  border-radius: 10px 10px 0px 0px;
 }
